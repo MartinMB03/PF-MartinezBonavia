@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./styles/style.css">
+    <link rel="stylesheet" href="./css/bootstrap.min.css">
+    <title>Proyecto Final</title>
+</head>
+<body>
+      <!-- NavBar -->
+    <header class="container-fluid principal">
+        <nav class="navbar navbar-expand-lg bg-secondary border-bottom border-body" data-bs-theme="dark">
+            <div class="container-fluid">
+              <a class="navbar-brand img-fluid" href="./index.html"><img src="./assest/images/logo/logo edit.png" width="70" alt="imagen"></a>
+              <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+              </button>
+              <div class="collapse navbar-collapse" id="navbarNavDropdown">
+                <ul class="navbar-nav">
+                  <li class="nav-item">
+                    <a class="nav-link active" aria-current="page" href="./index.html">Home</a>
+                  </li>
+                  <li class="nav-item dropdown">
+                    <a class="nav-link dropdown-toggle" href="./pages/producto.html" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                        Productos
+                    </a>
+                    <ul class="dropdown-menu bg-secondary">
+                      <li><a class="dropdown-item" href="./pages/productos-personales.html">Personales</a></li>
+                      <li><a class="dropdown-item" href="./pages/productos-ambientales.html">Ambientales</a></li>
+                    </ul>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="./pages/about.html">Conocenos</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="./pages/Preguntas-frecuentes.html">Preguntas Frecuentes</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="./pages/contacto.html">Contacto</a>
+                  </li>
+                </ul>
+              </div>
+            </div>
+          </nav>
+          <h1 class="text-center container-fluid principal" >Jael Cosmetica & Fragancias</h1>
+    </header>
+    <!-- Carousel de Imagenes -->
+    <main class="container-fluid">
+        <h2 class="text-bg-primary p-3 text-center" >Crea tus <span style="color:rgb(58, 57, 57)">Propias</span> Emociones!</h2>
+        <section class="row">
+            <div id="carouselExample" class="carousel slide d-flex align-items-center col-12 col-xl-8">
+                <div class="carousel-inner">
+                  <div class="carousel-item active">
+                    <img src="./assest/images/articulos/slider/slider1.jpg" class="d-block w-100 mx-auto img-fluid" alt="Slider 1">
+                  </div>
+                  <div class="carousel-item">
+                    <img src="./assest/images/articulos/slider/slider2.jpg" class="d-block w-100 mx-auto img-fluid" alt="slider 2">
+                  </div>
+                  <div class="carousel-item">
+                    <img src="./assest/images/articulos/slider/slider3.jpg" class="d-block mx-auto w-100 img-fluid" alt="slider 3">
+                  </div>
+                </div>
+                <button class="carousel-control-prev" type="button" data-bs-target="#carouselExample" data-bs-slide="prev">
+                  <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                  <span class="visually-hidden">Previous</span>
+                </button>
+                <button class="carousel-control-next" type="button" data-bs-target="#carouselExample" data-bs-slide="next">
+                  <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                  <span class="visually-hidden">Next</span>
+                </button>
+            </div>
+            <div class="p-3 col-12 col-xl-4 text-center">
+                <h2 class="principal text-bg-primary ">Es una cosmetica que se encarga de crear <span style="color: rgb(58, 57, 57);">productos naturales</span> para mejorar tu vida! Conoce la variedad que te ofrecemos para que <span style="color: rgb(58, 57, 57);" >te sientas mejor</span> con vos mismo! </h2>
+                <p class="principal h4 text-bg-primary ">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Esse pariatur cumque eos, odit amet deleniti consectetur cupiditate voluptatum alias, provident nam molestiae, magnam illo suscipit quidem ducimus ullam distinctio reiciendis! Lorem ipsum dolor sit amet consectetur adipisicing elit. Ex accusamus tenetur, ut consequuntur libero eaque labore. Harum velit ratione alias, saepe blanditiis itaque neque laborum mollitia suscipit eaque qui totam? Lorem ipsum, dolor sit amet consectetur adipisicing elit. Dolores deleniti debitis magnam corporis, esse, natus cumque quibusdam tempora obcaecati pariatur atque quas inventore nihil ipsam totam culpa maiores iste illo.</p>
+            </div>   
+        </section>
+        <!-- Parte de caracateristicas -->
+        <section class="container-fluid principal">
+            <br>
+            <h3 class="principal h2 text-center bg-secondary">Algunas Caractericas:</h3>
+            <div class="row">
+                <article class="col-12 col-md-4 bg-primary">
+                    <h3>Naturales</h3>
+                    <p>Materias Primas obtenidas a partir de plantas de la zona.</p>
+                </article>
+                <div class="col-12 col-md-4 ">
+                    <h3>Armonizastes</h3>
+                    <p>Buscan la mejora de cuerpo y del espiritud.</p>
+                </div>
+                <article class="col-12 col-md-4 bg-primary">
+                    <h3>Aromaterapeuticos</h3>
+                    <p>Unen a la accion farmacologica y los beneficios de la aromaterapia.</p>
+                </article>
+            </div>
+        </section>
+    </main>
+        <!-- Footer -->
+    <footer class="container-fluid text-center">
+        <br>
+        <br>
+        <div class="bg-secondary">
+            <p>Derechos de autor © 2024. Mi sitio web.</p>
+        <p>Contáctanos <a href="./pages/contacto.html">Aqui</a> </p>
+        </div>
+    </footer>
+    <script src="./js/bootstrap.bundle.min.js"></script>
+</body>
+</html>
