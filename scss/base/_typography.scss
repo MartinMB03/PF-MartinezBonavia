@@ -1,0 +1,62 @@
+// _typography.scss
+.principal {
+    font-family: DancingScript;
+}
+
+.titulos{
+    font-family: DancingScript;
+    font-size: 35px;
+    text-align: center;
+    padding: 20px;
+}
+
+.producto{
+    font-family: DancingScript;
+    background-color: $color-primary;
+    padding: 70px;
+    margin: 0 auto;
+    font-size: 25px;
+    text-align: center;
+    display: flex;
+    width: 1200px;
+}
+
+.propersonal p{
+    padding: 25px;
+}
+
+.prinpersonales p{
+    padding: 10px;
+    font-size: 25px;
+    background-color: $color-primary;
+    font-family: DancingScript;
+}
+
+.prinpersonales th{
+    padding: 10px;
+    font-size: 25px;
+    font-family: DancingScript;
+    text-align: left;
+}
+
+.proambiental p{
+    padding: 25px;
+}
+
+.pro-ambiental p{
+    padding: 10px;
+    font-size: 25px;
+    background-color: $color-primary;
+    font-family: DancingScript;
+}
+
+.pregunta_encabezado p{
+	font-size: 30px;
+    font-family: DancingScript;
+	margin: 0;
+	
+}
+
+.respuesta {
+    font-family: Lobster;
+}
